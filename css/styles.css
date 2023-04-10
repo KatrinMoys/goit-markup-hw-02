@@ -50,9 +50,14 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.address-link:hover,
+.address-link:focus {
+    text-decoration: none; /* Убираем подчеркивание */
+    color:#404bbf;  /* Цвет ссылки при наведении на нее курсора мыши */  
+   }
 
 .list{
     list-style: none;
@@ -60,11 +65,19 @@ body{
 .hero-button{
     background-color:#4D5AE5;
     color:var(--background-color);
+    font-family: "Roboto", sans-serif;
 /* Button Text */
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    letter-spacing: 0.04em;
 }
+.hero-button:hover,
+.hero-button:focus {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #FFFFFF;  /* Цвет ссылки при наведении на нее курсора мыши */  
+    background-color: #404BBF  /* Цвет фона */
+   }
 .feature-title {
     color:#2E2F42;
 }
@@ -85,6 +98,9 @@ body{
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 .section-list{
     font-weight: 500;
