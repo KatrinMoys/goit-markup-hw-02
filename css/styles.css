@@ -1,0 +1,147 @@
+:root{
+    --web-color: #4D5AE5;
+    --background-color:#FFFFFF;
+    --accent-color: #404bbf ;
+}
+body{
+    background:var(--background-color) ;
+    color: #434455;
+    font-family: 'Roboto',sans-serif;
+    margin: 0 auto;
+}  
+.link-logo {
+    color:var(--web-color);
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.studio {
+   color:#2E2F42; 
+}
+.link {
+    text-decoration: none;
+}
+.nav-link {
+    color:#2E2F42;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+  
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+.current {
+  color: var(--accent-color);
+}
+
+.address {
+    color:#434455 ;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+.list{
+    list-style: none;
+}
+.hero-button{
+    background-color:#4D5AE5;
+    color:var(--background-color);
+/* Button Text */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.feature-title {
+    color:#2E2F42;
+}
+
+.hero {
+    background-color: #2E2F42;
+}
+.hero-title{
+    color: #FFFFFF ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+}
+.section-title{
+    color:#2E2F42;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+}
+.section-list{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.team{
+    background-color:#F4F4FD;
+}
+.team-item{
+    background-color: #FFFFFF;
+}
+.footer{
+    background-color: #2E2F42;
+    color:#F4F4FD;
+}
+.footer .studio{
+    color: #F4F4FD;
+}
+.footer-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.filters-btn {
+    background: #F4F4FD;
+    color: #4D5AE5;
+/* CORNFLOWER */
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    border: 1px solid #E7E9FC;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+
+.filters-btn:hover,
+.filters-btn:focus {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #FFFFFF;  /* Цвет ссылки при наведении на нее курсора мыши */  
+    background:#404BBF; /* Цвет фона */
+   }
+
+  
+
+
+
+
+
+
+
+
+
+
+  
