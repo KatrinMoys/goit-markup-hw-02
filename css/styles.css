@@ -53,6 +53,9 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.address{
+    font-style: normal;
+}
 .address-link:hover,
 .address-link:focus {
     text-decoration: none; /* Убираем подчеркивание */
@@ -91,7 +94,9 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 .feature-title,
 .team-title{
@@ -108,7 +113,8 @@ body{
     order: 0;
     flex-grow: 0;
 }
-.feature-text{
+.feature-text,
+.team-text{
     width: 264px;
     height: 72px;
     font-family: 'Roboto' sans-serif;
@@ -163,7 +169,7 @@ body{
 .filters-btn {
     background: #F4F4FD;
     color: #4D5AE5;
-    font-family:'Roboto'sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
