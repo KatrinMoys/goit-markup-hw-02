@@ -99,7 +99,8 @@ body{
     letter-spacing: 0.02em;
 }
 .feature-title,
-.team-title{
+.team-title,
+.projects-title{
     width: 264px;
     height: 24px;
     font-family: 'Roboto';
@@ -114,7 +115,8 @@ body{
     flex-grow: 0;
 }
 .feature-text,
-.team-text{
+.team-text,
+.projects-tex{
     width: 264px;
     height: 72px;
     font-family: 'Roboto' sans-serif;
