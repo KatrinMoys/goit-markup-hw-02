@@ -44,7 +44,7 @@ body{
   color: var(--accent-color);
 }
 
-.address {
+.address-link {
     color:#434455 ;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -71,6 +71,7 @@ body{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -92,15 +93,49 @@ body{
     font-size: 56px;
     line-height: 60px;
 }
+.feature-title,
+.team-title{
+    width: 264px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.feature-text{
+    width: 264px;
+    height: 72px;
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+/* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
 .section-title{
-    color:#2E2F42;
+    font-family: 'Roboto' sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
-    line-height: 1.07;
+    line-height: 1.11;
+/* identical to box height, or 111% */
     text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+/* NAVY BLUE */   
+    color: #2E2F42;
 }
 .section-list{
     font-weight: 500;
@@ -128,7 +163,7 @@ body{
 .filters-btn {
     background: #F4F4FD;
     color: #4D5AE5;
-    font-family: 'Roboto'sans-serif;
+    font-family:'Roboto'sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
